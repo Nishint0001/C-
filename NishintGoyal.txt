@@ -1,0 +1,148 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+         int futureage=0;
+        Console.WriteLine("WELCOME TO THE BASIC INPUT /OUTPUT PROGRAM");
+        
+        
+        //Input Reading user input
+      Console.WriteLine("ENTER YOUR NAME PLEASE ");
+        string username=Console.ReadLine();
+      
+       
+       
+       Console.WriteLine("ENTER YOUR AGE PLEASE ");
+        int age=Convert.ToInt32(Console.ReadLine());
+        
+        
+        if(age>0)
+        {
+             futureage=age+10;
+            
+        }
+        else
+        {
+            futureage=0;
+        }
+       // double marks=100;
+         Console.WriteLine("ENTER YOUR MARKS PLEASE ");
+        int marks=Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine("-----------------------------THE DETAILS YOU ENTERED IS:----------------------------------- ");
+         Console.WriteLine("YOUR NAME IS----------->"+username);
+       Console.WriteLine("YOUR AGE IS--------->"+age);
+       if(futureage>0)
+       {
+           Console.WriteLine("YOUR FUTURE AGE AFTER 10 YEARS  IS ---------->"+futureage);
+       }
+       else
+       {
+           Console.WriteLine("Invalid input ----------->"+age);
+       }
+        Console.WriteLine("YOUR MARKS IS ---------->"+marks);
+        if(marks>=85)
+        {
+            Console.WriteLine("YOU ARE A GOOD BACHAA😊😊😊😊😊😊❤️");
+        }
+        else
+        {
+            Console.WriteLine("YOU ARE A BAD BACHAA😂😂😂😂");
+        }
+         Console.WriteLine("---------------------------------------------------------------- ");
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+WELCOME TO THE BASIC INPUT /OUTPUT PROGRAM
+ENTER YOUR NAME PLEASE 
+NISHINT GOYAL 
+ENTER YOUR AGE PLEASE 
+20
+ENTER YOUR MARKS PLEASE 
+92
+-----------------------------THE DETAILS YOU ENTERED IS:----------------------------------- 
+YOUR NAME IS----------->NISHINT GOYAL 
+YOUR AGE IS--------->20
+YOUR FUTURE AGE AFTER 10 YEARS  IS ---------->30
+YOUR MARKS IS ---------->92
+YOU ARE A GOOD BACHAA??????????????
+---------------------------------------------------------------- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class ng
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine ("Hello BOY");
+        
+        int [] num={4,3,2,1,3,4,5,6,8};
+        Console.WriteLine(num.Length);
+        
+        
+        
+        for(int i=8;i>=0;i--)
+        {
+            for(int j=0;j<i;j++)
+            {
+                if(num[j]>num[j+1])
+                {
+                    int temp=num[j];
+                    num[j]=num[j+1];
+                    num[j+1]=temp;
+                }
+            }
+        }
+        
+        for(int i=0;i<=7;i++)
+        {
+            Console.Write(num[i]);
+        }
+    }
+}
+
+
+
+
+
+
+
+Hello BOY
+9
+12334456
